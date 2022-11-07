@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    background-color: black;
+    
+}
+
+.container {
+    background-color: #1B244A;
+    display: flex;
+    justify-content: space-around;
+    /* justify-items: center ; */
+    margin : 15vh 60vh 22vh 60vh;
+}
+
+h1 {
+    padding-top: 1rem; 
+    color: white;
+     font-size: 3rem;
+     font-family: 'Roboto', sans-serif;
+}
+
+.blackBox {
+    height: 150px;
+    width: 160px;
+    background-color: black;
+    border-radius: 10%;
+    /* margin-bottom: 4vh; */
+} 
+
+.pointsHome {
+    color: #F94F6D;
+    padding-top: 20%;
+    margin-top: -6%;
+    /* padding-bottom: 50%; */
+    text-align: center;
+    font-family: 'alarm clock', sans-serif;
+    font-size: 80px;
+} 
+
+.pointsGuest {
+    color: #F94F6D;
+    padding-top: 20%;
+    margin-top: -6%;
+    /* padding-bottom: 50%; */
+    text-align: center;
+    font-family: 'alarm clock', sans-serif;
+    font-size: 5em;
+
+}
+
+
+button {
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    margin-top: 25px;
+    background-color: #1B244A;
+    color: #9AABD8;
+    font-family: 'alarm clock', sans-serif;
+
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+}
+
+.reset {
+    box-sizing: border-box;
+    width: 85px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 40px;
+    background-color: #1B244A;
+    color: #9AABD8;
+    font-family: 'alarm clock', sans-serif;
+    margin-bottom: 50px;
+}

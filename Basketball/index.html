@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="index.css"></link>
+    <link href="https://fonts.cdnfonts.com/css/alarm-clock" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+            <div>
+                <h1>HOME</h1> 
+                <div class="blackBox">
+                    <h2 class="pointsHome" id="home">0</h2>
+                </div>
+                <div class="btn">
+                    <button onclick="addHome()">+1</button>
+                    <button onclick="addHome(); addHome() ">+2</button>
+                    <button onclick="addHome(); addHome(); addHome()">+3</button>
+                </div>  
+                <div>
+                    <button class="reset" onclick="reset()">RESET</button>
+                </div>       
+            </div>
+
+            <div> 
+                <h1>GUEST</h1>
+                <div class="blackBox">
+                    <h2 class="pointsGuest" id="guest">0</h2>
+                </div>
+                <div class="btn">
+                    <button  onclick="addGuest()">+1</button>
+                    <button  onclick="addGuest(); addGuest()">+2</button>
+                    <button  onclick="addGuest(); addGuest(); addGuest()">+3</button>
+                </div>
+                <div>
+                    <button class="reset" onclick="reset()">RESET</button>
+                </div>  
+            </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
